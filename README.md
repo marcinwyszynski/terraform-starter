@@ -4,6 +4,7 @@ This repository is designed just for this purpose. So, fork it to a GitHub accou
 
 In this tutorial you will not be using any cloud providers, you won't need any extra credentials and the only resources you will manage are the ones managed by [Spacelift's own Terraform provider](https://github.com/spacelift-io/terraform-provider-spacelift/).
 
+
 ## Step 1: Installing GitHub application
 
 Provisioning a Spacelift account is fully automated and only involves [installing the GitHub app](https://github.com/apps/spacelift-io/installations/new). At this point it's up to you to decide whether to give Spacelift access to all your repositories...
