@@ -5,3 +5,7 @@ terraform {
     }
   }
 }
+
+variable "amap" {
+  type = map(any)
+}
