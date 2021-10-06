@@ -3,7 +3,7 @@ variable "amap" {
 }
 
 resource "random_password" "secret" {
-  length  = 8
+  length  = 9
   special = true
 }
 
