@@ -4,7 +4,7 @@ resource "spacelift_stack" "managed" {
   name        = "Bacon! 🥓"
   description = "Your first stack managed by Terraform"
 
-  repository   = "terraform-starter"
+  repository   = "terraform-starter-copy"
   branch       = "main"
   project_root = "managed-stack"
 
