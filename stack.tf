@@ -7,6 +7,7 @@ resource "spacelift_stack" "managed" {
   repository   = "terraform-starter-copy"
   branch       = "main"
   project_root = "managed-stack"
+  import_state = "bacon"
 
   autodeploy = true
   labels     = ["managed", "depends-on:${data.spacelift_current_stack.this.id}"]
